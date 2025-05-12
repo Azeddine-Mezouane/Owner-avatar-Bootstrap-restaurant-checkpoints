@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Bootstrap-checkpoints</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark d-flex">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="Assets/images/escale francaise logo  white .png"
+            alt=""
+            width="100"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon border-light-subtle"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#"
+                >Accueil</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">À propos de nous</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero -->
+    <div
+      class="p-5 text-center bg-image"
+      style="
+        background-image: url('Assets/images/main-image2.png');
+        height: 50vh;
+      "
+    >
+      <div class="mask p-5" style="background-color: rgba(0, 0, 0, 0.6)">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-white">
+            <h1 class="hero-title cos-title fw-normal display-7">
+              Savourez l'excellence dans chaque bouchée
+            </h1>
+
+            <a
+              data-mdb-ripple-init
+              class="btn btn-outline-warning btn-lg mt-4 hero-btn"
+              href="#!"
+              role="button"
+              >Découvrez notre menu</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------------------------------- menu -------------------------------------->
+
+    <section id="menu" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5 hero-title cos-title fw-normal display-7">
+          Notre Menu
+        </h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <img
+                src="Assets/images/Confit de Canard.jpg"
+                class="card-img-top"
+                alt="Image du plat 1"
+              />
+              <div class="card-body">
+                <h5
+                  class="card-title hero-title cos-title fw-normal display-12"
+                >
+                  Confit de Canard
+                </h5>
+                <p class="card-text">
+                  Canard tendre, cuit lentement dans sa graisse, croquant à
+                  l'extérieur.
+                </p>
+                <p class="btn btn-outline-warning btn-lg mt-4 hero-btn">
+                  Prix : 15 €
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <img
+                src="Assets/images/Fajita au poulet.jpg"
+                class="card-img-top"
+                alt="Image du plat 2"
+              />
+              <div class="card-body">
+                <h5
+                  class="card-title hero-title cos-title fw-normal display-12"
+                >
+                  Fajita au poulet
+                </h5>
+                <p class="card-text">
+                  Poulet grillé, légumes croquants, tortillas chaudes, sauce
+                  épicée.
+                </p>
+                <p class="btn btn-outline-warning btn-lg mt-4 hero-btn">
+                  Prix : 13 €
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <img
+                src="Assets/images/La quiche lorraine.jpg"
+                class="card-img-top"
+                alt="Image du plat 3"
+              />
+              <div class="card-body">
+                <h5
+                  class="card-title hero-title cos-title fw-normal display-12"
+                >
+                  La quiche lorraine
+                </h5>
+                <p class="card-text">
+                  Tarte salée à la crème, lardons et fromage fondant.
+                </p>
+
+                <p class="btn btn-outline-warning btn-lg mt-4 hero-btn">
+                  Prix : 11 €
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------------------------------- aprops de nous -------------------------------------->
+    <section class="container my-5 d-flex align-items-center">
+      <div class="row d-flex align-items-center">
+        <div class="col-md-6">
+          <img
+            src="Assets/images/escale francaise logo .png"
+            alt="Notre Restaurant"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-md-6">
+          <h2 class="hero-title cos-title fw-normal display-7">
+            À propos de nous
+          </h2>
+          <p>
+            Découvrez une cuisine gastronomique moderne, fusionnant tradition et
+            créativité. Des plats raffinés, des produits de qualité, et un
+            service impeccable pour satisfaire toutes vos attentes..
+          </p>
+        </div>
+      </div>
+    </section>
+    <br /><br />
+    <!-------------------------------------- form -------------------------------------->
+
+    <section class="container my-5 w-50">
+      <h2 class="text-center hero-title cos-title fw-normal display-7">
+        Contactez-nous
+      </h2>
+      <form>
+        <div class="form-group">
+          <label for="name" class="hero-title cos-title fw-normal display-15"
+            >Nom</label
+          >
+          <input type="text" class="form-control bord" id="name" />
+        </div>
+        <div class="form-group">
+          <label for="email" class="hero-title cos-title fw-normal display-15"
+            >E-mail</label
+          >
+          <input type="email" class="form-control bord" id="email" />
+        </div>
+        <div class="form-group">
+          <label for="message" class="hero-title cos-title fw-normal display-15"
+            >Message</label
+          >
+          <textarea class="form-control bord" id="message"></textarea>
+        </div>
+        <button type="submit" class="btn btn btn-warning btn-lg mt-4 hero-btn">
+          Envoyer
+        </button>
+      </form>
+    </section>
+    <!-------------------------------------- footer -------------------------------------->
+
+    <footer class="bg-dark text-white text-center py-3">
+      <p>
+        <span class="colorttt">&copy;</span> 2025 Escale Francaise. Tous droits
+        réservés.
+      </p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

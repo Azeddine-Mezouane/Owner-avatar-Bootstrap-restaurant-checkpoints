@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* box-shadow: 0 0 0 3px red inset; */
+}
+
+.hero-title {
+  font-family: "Crimson Text", serif;
+  font-size: 50px;
+  font-weight: 600 !important;
+}
+
+.btn-outline-warning {
+  font-family: "Crimson Text", serif;
+  border: solid 1px #bf9c55 !important;
+  color: #bf9c55 !important;
+  font-size: 25px !important;
+  font-weight: 400 !important;
+  outline-style: none !important;
+}
+
+.btn-outline-warning:hover {
+  background-color: #bf9c55 !important;
+  color: #232220 !important;
+  font-size: 25px !important;
+  font-weight: 400 !important;
+  outline-style: none !important;
+}
+
+.btn-outline-warning:active {
+  border: none;
+}
+
+.btn-warning {
+  font-family: "Crimson Text", serif;
+  background-color: #bf9c55 !important;
+  color: #fff !important;
+  font-size: 25px !important;
+  font-weight: 400 !important;
+  outline-style: none !important;
+}
+
+.display-12 {
+  font-size: 35px !important;
+}
+
+.colorttt {
+  color: #bf9c55;
+}
+
+.bord {
+  border: #bf9c55 solid 1px !important;
+}
+
+.display-15 {
+  margin-top: 10px;
+  font-size: 28px !important;
+}
+
+.bg-image {
+  background-position-y: center;
+}
+
+.ssss {
+  color: white;
+  background-color: white;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: (
+    "data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28191, 156, 85, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"
+  );
+}
+/* changing icon color doesn't work  */
+
+@media (max-width: 768px) {
+  .bg-image {
+    height: 500vh;
+    background-position-x: center;
+  }
+  .cos-title {
+    font-size: 26px !important;
+  }
+  .hero-btn {
+    font-size: 15px !important;
+  }
+  .btn-outline-warning:hover {
+    font-size: 15px !important;
+    outline-style: none !important;
+  }
+}
